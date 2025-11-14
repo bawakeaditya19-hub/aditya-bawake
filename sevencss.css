@@ -1,0 +1,79 @@
+body{
+    background-image: url('file:///C:/Users/bawak/OneDrive/Desktop/new%20website%20with%20mam/Screenshot%202025-11-11%20195316.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.colou {
+    color: rgb(1, 69, 214);
+    font-weight: 600;
+}
+
+.color {
+    color: rgb(100, 174, 235);
+    font-weight: 600;
+}
+
+.profile-badge {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+    background-color: #f4f7ff;
+    margin-left: 40%;
+    margin-top: 1%;
+    align-items: center;
+    height: 10%;
+}
+
+.profile-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.profile-badge img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.profile-badge span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.girl-image{
+    margin-left: -15px;
+}
+
+
+    .profile-card {
+      max-width: 450px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      padding: 40px 30px;
+    }
+    .profile-card img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .form-check-label {
+      margin-left: 1px;
+    
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+      border-radius: 8px;
+    }

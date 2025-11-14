@@ -1,0 +1,92 @@
+    body {
+      background-image: url('file:///C:/Users/bawak/OneDrive/Desktop/new%20website%20with%20mam/Screenshot%202025-11-11%20195316.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Inter', sans-serif;
+      position: relative;
+      height: 110vh;
+    }
+
+    .navbar {
+      background-color: transparent;
+      padding: 20px 40px;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: #6c63ff;
+      font-size: 1.4rem;
+    }
+
+    .navbar-brand span {
+      color: #333;
+      font-weight: 600;
+    }
+
+    .girl-image{
+      padding-left: 35%;
+      
+    
+    }
+
+    .btn-sign {
+      border-radius: 50px;
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 6px 14px;
+      font-size: 0.9rem;
+    }
+
+    .signup-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      max-width: 480px;
+      margin: 60px auto;
+    
+      margin-top: -5%;
+
+    }
+
+    .form-label {
+      font-weight: 500;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .btn-signup {
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+    }
+
+    .btn-signup:hover {
+      background-color: #5a54d8;
+    }
+
+    .btn-cancel {
+      background-color: #f4f4f4;
+      color: #333;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+    }
+
+    .illustration {
+      position: absolute;
+      top: -140px;
+      right: -180px;
+      width: 250px;
+      height: auto;
+    }
+
+    footer {
+      text-align: center;
+      color: #aaa;
+      font-size: 0.85rem;
+      margin-top: 40px;
+    }

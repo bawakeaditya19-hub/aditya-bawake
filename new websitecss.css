@@ -1,0 +1,101 @@
+.background-color {
+  background: rgb(229, 229, 229);
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.icoon {
+  margin-left: -40px;
+}
+
+.background-image {
+  background-image: url('file:///C:/Users/bawak/OneDrive/Desktop/new%20website%20with%20mam/Screenshot%202025-11-11%20195316.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  
+}
+
+
+.team-image {
+  margin-top: -300px;
+  z-index: 1;
+  margin-left: 220px;
+}
+
+.room-input {
+  border-radius: 50px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #555;
+  width: 350px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.room-input:focus {
+  outline: none;
+  border-color: #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+::placeholder {
+  color: #bcbcbc;
+  font-weight: 400;
+}
+
+.custom-btn {
+  background-color: #f8f9fa;
+  /* light gray background */
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 500;
+  color: #212529;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.custom-btn:hover {
+  background-color: #e9ecef;
+}
+
+.custom-btn i {
+  margin-right: 8px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.all-right{
+  padding-bottom: 100px;
+}
+
+
+
+    .signin-btn {
+      border-radius: 50px; 
+      padding: 8px 18px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .signin-btn:hover {
+      background-color: #f8f9fa;
+      border-color: #ccc;
+    }
+
+
+

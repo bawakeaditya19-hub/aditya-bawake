@@ -1,0 +1,83 @@
+body {
+
+    font-family: 'Inter', sans-serif;
+    background-image: url('file:///C:/Users/bawak/OneDrive/Desktop/new%20website%20with%20mam/Screenshot%202025-11-11%20195316.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+
+}
+
+.schedule-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-schedule {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+}
+
+.btn-schedule:hover {
+    background-color: #5a54d8;
+}
+
+.btn-cancel {
+    background-color: #f4f4f4;
+    border: none;
+    color: #555;
+}
+
+.btn-cancel:hover {
+    background-color: #e6e6e6;
+}
+
+.brand {
+    color: #6c63ff;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+footer {
+
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+
+.user-badge {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 5px 12px 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.user-badge img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.user-badge span {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,97 @@
+body {
+    background-image: url('file:///C:/Users/bawak/OneDrive/Desktop/new%20website%20with%20mam/Screenshot%202025-11-11%20195316.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.colou {
+    color: rgb(1, 69, 214);
+    font-weight: 600;
+}
+
+.color {
+    color: rgb(100, 174, 235);
+    font-weight: 600;
+}
+
+.girl-image {
+    margin-left: -15px;
+}
+
+.profile-badge {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+    background-color: #f4f7ff;
+    margin-left: 40%;
+    margin-top: 1%;
+    align-items: center;
+    height: 10%;
+}
+
+.profile-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.profile-badge img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.profile-badge span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-custom {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.calendar-box {
+    background: white;
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.time-text {
+    color: #f87171;
+    font-weight: 500;
+}
+
+.btn-location {
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 5px 15px;
+}
+
+.btn-baap {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.btn-offline {
+    background-color: #e5e5e5;
+    color: #555;
+}
+
+.btn-zoom {
+    background-color: #6c5ce7;
+    color: white;
+}
